@@ -4,7 +4,7 @@ from services.serializers import SubscriptionSerializer
 from services.models import Subscription
 from django.db.models import Prefetch
 from clients.models import Client
-from django.db.models import F, Sum
+from django.db.models import Sum
 
 # Create your views here.
 class SubscriptionView(ReadOnlyModelViewSet):
